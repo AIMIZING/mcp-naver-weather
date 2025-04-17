@@ -34,10 +34,8 @@ cd mcp-naver-weather
 ```sh
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
-- Initialize the UV project and create a virtual environment:
+- Set up the virtual environment:
 ```sh
-uv init weather
-cd weather
 uv venv
 .venv\Scripts\activate
 ```
