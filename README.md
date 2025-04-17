@@ -1,14 +1,13 @@
 ## mcp-naver-weather
 A lightweight MCP (Model Context Protocol) server that fetches real-time weather data from Naver and sends it to Claude Desktop via a local folder.
 
-This project is intended to be used with **Claude's MCP desktop feature**, and does not require response handling — it simply delivers weather content as `.txt` files.
+This project is intended to be used with **Claude's MCP desktop feature**.
 
 ---
 
 ## Features
 
 - Crawls current weather info from Naver
-- Saves the result to Claude Desktop’s input folder
 - Minimal setup using [uv](https://github.com/astral-sh/uv)
 
 ---
