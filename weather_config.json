@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "naver-weather": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\PATH\\TO\\naver-weather",
+        "run",
+        "naver_weather.py"
+      ]
+    }
+  }
+}
